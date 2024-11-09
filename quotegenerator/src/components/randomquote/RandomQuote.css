@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 176, 206);
+    height: 25vh;
+    width: 60vh;
+}
+.bottom{
+    width: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    border-radius: 2vh;
+    border-style: solid;
+}
+.icons{
+gap: 40px;
+}
+.icons img{
+    height: 5vh;
+    width: 5vh;
+}
+.quote{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
